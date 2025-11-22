@@ -57,6 +57,29 @@ Branches criadas seguindo o padrão:
 `DOTNET-P008/id_tarefa-descricao_breve` (PRs revisados no branch protegido).
 
 ---
+### 3. Projeto Ordem de Serviço (Auth)
+**🔗 Branch:** [Acessar ProjetoEquipe_Auth](https://github.com/EzekLobo/Trilha_DotNet_Projetos-ResTIC18/tree/ProjetoEquipe_Auth)
+
+**Objetivo:** Desenvolvimento de uma API RESTful versionada (`v0.1`) para gerenciamento de ordens de serviço, implementando autenticação e relacionamentos complexos.
+
+**📡 Estrutura da API (Endpoints):**
+
+<details>
+<summary><strong>📂 Clique para expandir a lista de rotas</strong></summary>
+
+| Contexto | Método | Endpoint Base |
+| :--- | :---: | :--- |
+| **Cliente** | `CRUD` | `/api/v0.1/cliente` |
+| **Prestador** | `CRUD` | `/api/v0.1/prestador-de-servico` |
+| **Ordem de Serviço** | `CRUD` | `/api/v0.1/ordem-de-servico` |
+| **Serviço** | `CRUD` | `/api/v0.1/servico` |
+| **Pagamento** | `CRUD` | `/api/v0.1/pagamento` |
+
+> *Todos os recursos suportam operações de Listagem (GET All), Detalhes (GET ID), Criação (POST), Atualização (PUT) e Exclusão (DELETE).*
+
+</details>
+
+---
 
 ## 🏆 Competências Desenvolvidas
 
